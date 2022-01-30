@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shirt
+  - BookA
+  - BookB
+  - BookG
+  - BookK
+  - BookN
+  - BookS
   layers:
   - Default
   - TransparentFX

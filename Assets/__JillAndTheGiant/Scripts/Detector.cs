@@ -10,8 +10,13 @@ public class Detector : MonoBehaviour
 
     public UnityEvent validate;
 
+    [SerializeField]
+    private GroupValidator groupValidator;
+
     private bool isPlaced = false;
     private bool isValid = false;
+
+    public bool GetIsValid => isValid;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +37,12 @@ public class Detector : MonoBehaviour
         {
             isValid = true;
             validate.Invoke();
+            if (groupValidator == null)
+            {
+                return;
+
+            }
+            groupValidator.CheckValidations();
         }
     }
     private void OnCollisionExit(Collision collision)
