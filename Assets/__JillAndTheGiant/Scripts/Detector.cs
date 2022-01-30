@@ -18,16 +18,6 @@ public class Detector : MonoBehaviour
 
     public bool GetIsValid => isValid;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        Debug.Log(isValid);
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
