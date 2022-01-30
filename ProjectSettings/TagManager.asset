@@ -15,6 +15,7 @@ TagManager:
   - Cheese
   - Fish
   - Parsnip
+  - Key
   layers:
   - Default
   - TransparentFX
