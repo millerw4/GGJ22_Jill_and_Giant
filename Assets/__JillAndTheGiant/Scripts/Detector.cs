@@ -18,12 +18,11 @@ public class Detector : MonoBehaviour
 
     public bool GetIsValid => isValid;
 
-
     private void OnCollisionEnter(Collision collision)
     {
         isPlaced = true;
 
-        if (collision.collider.gameObject.CompareTag(validTag)? collision.collider.gameObject.CompareTag(validTag):false )
+        if (collision.collider.gameObject.CompareTag(validTag) ? collision.collider.gameObject.CompareTag(validTag) : false)
         {
             isValid = true;
             validate.Invoke();
@@ -36,6 +35,27 @@ public class Detector : MonoBehaviour
         }
     }
     private void OnCollisionExit(Collision collision)
+    {
+        isPlaced = false;
+        isValid = false;
+    }
+    private void OnTriggerEnter(Collider collider)
+    {
+        isPlaced = true;
+
+        if (collider.gameObject.CompareTag(validTag) ? collider.gameObject.CompareTag(validTag) : false)
+        {
+            isValid = true;
+            validate.Invoke();
+            if (groupValidator == null)
+            {
+                return;
+
+            }
+            groupValidator.CheckValidations();
+        }
+    }
+    private void OnTriggerExit(Collider collider)
     {
         isPlaced = false;
         isValid = false;
