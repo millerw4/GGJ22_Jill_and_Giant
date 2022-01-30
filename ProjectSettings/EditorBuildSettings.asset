@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SampleScene/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/__JillAndTheGiant/Scenes/StartMenu.unity
+    guid: a6269853430b1564585d5ca1f90b1a8d
+  - enabled: 1
+    path: Assets/__JillAndTheGiant/Scenes/Cottage scene.unity
+    guid: e9443be0f00dd6244ba1b7429527ad49
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1a20ba5b5cb2726409d2e08b9c8c0518, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: abc76891c4ca2fa49925f676c6300ad3, type: 2}
