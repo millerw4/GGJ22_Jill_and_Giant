@@ -4936,6 +4936,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Cheese
       objectReference: {fileID: 0}
+    - target: {fileID: 5214684520056642673, guid: 7d6d337771f104348a430de751641f2c, type: 3}
+      propertyPath: m_text
+      value: "Not adding this cheese would be such a waste, a few more components
+        will improve the taste. \r\n"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d6d337771f104348a430de751641f2c, type: 3}
 --- !u!1001 &852392125
@@ -4947,7 +4952,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: "SSSS There\u2019s something familiar about the writing on this border,
+      value: " There\u2019s something familiar about the writing on this border,
         a search of the house might now be in order. \r"
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
@@ -5844,8 +5849,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: "BBBBB These leaves seem familiar, though not from my climb. I wonder
-        if they\u2019re somewhere in this room for me to find."
+      value: " These leaves seem familiar, though not from my climb. I wonder if
+        they\u2019re somewhere in this room for me to find."
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_sharedMaterial
@@ -6173,6 +6178,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 934090350}
     m_Modifications:
+    - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
+      propertyPath: m_text
+      value: "Finally it\u2019s free, all shiny and brass, much like the cuffs on
+        that poor giant lass."
+      objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_sharedMaterial
       value: 
@@ -6676,6 +6686,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8270648291710128502, guid: 8ed65bb6c46341b45832eea5e0a05037, type: 3}
+      propertyPath: m_text
+      value: "It\u2019s meaty and scaly and smells of the ocean, alongside more flavors
+        it\u2019ll set this soup into motion. "
+      objectReference: {fileID: 0}
     - target: {fileID: 8270648292147356988, guid: 8ed65bb6c46341b45832eea5e0a05037, type: 3}
       propertyPath: m_TagString
       value: Fish
@@ -6721,6 +6736,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 503768844}
     m_Modifications:
+    - target: {fileID: 2856740424219387277, guid: 6d040f2b08edef94ba16245fea58e13b, type: 3}
+      propertyPath: m_text
+      value: "This Parsnip will add the crunch that this needs, though I\u2019ll
+        need more ingredients if a giant this feeds."
+      objectReference: {fileID: 0}
     - target: {fileID: 2856740425155833377, guid: 6d040f2b08edef94ba16245fea58e13b, type: 3}
       propertyPath: m_TagString
       value: Parsnip
@@ -7031,8 +7051,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: 'KKKKK Jack never liked to spend time lost in books, but this symbol
-        is familiar, around the house I should look. '
+      value: ' Jack never liked to spend time lost in books, but this symbol is familiar,
+        around the house I should look. '
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_sharedMaterial
@@ -7506,6 +7526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Victory Chimes
       objectReference: {fileID: 0}
+    - target: {fileID: 8852651709136252214, guid: 13e87a7ef15083c4eb9023bf045df4d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13e87a7ef15083c4eb9023bf045df4d3, type: 3}
 --- !u!1001 &1467605160
@@ -7517,8 +7541,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: "GGGGG This is part of a picture, though the line isn\u2019t complete,
-        I should find the whole thing to help make this shelf neat."
+      value: " This is part of a picture, though the line isn\u2019t complete, I
+        should find the whole thing to help make this shelf neat."
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_sharedMaterial
@@ -7935,7 +7959,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: "NNNN I can\u2019t read this symbol, or language at all. Perhaps I should
+      value: "I can\u2019t read this symbol, or language at all. Perhaps I should
         take a look at the walls?"
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
@@ -9807,8 +9831,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_text
-      value: "AAAAAAA I\u2019ve seen this symbol somewhere, a mural perhaps? What
-        a horrible time for my memory to lapse."
+      value: " I\u2019ve seen this symbol somewhere, a mural perhaps? What a horrible
+        time for my memory to lapse."
       objectReference: {fileID: 0}
     - target: {fileID: 3605192617834384091, guid: 087f1e5d10b799a4eb75a1bee5cd8c4d, type: 3}
       propertyPath: m_sharedMaterial
