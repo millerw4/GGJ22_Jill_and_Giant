@@ -11,6 +11,10 @@ TagManager:
   - BookK
   - BookN
   - BookS
+  - Food
+  - Cheese
+  - Fish
+  - Parsnip
   layers:
   - Default
   - TransparentFX

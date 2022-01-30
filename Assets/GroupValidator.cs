@@ -16,6 +16,7 @@ public class GroupValidator : MonoBehaviour
         foreach (Detector d in detectors)
         {
             allValid = d.GetIsValid;
+            Debug.Log(d.GetIsValid);
             if (allValid == false) return;
         }
         validate.Invoke();
